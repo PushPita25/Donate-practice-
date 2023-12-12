@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header style */
+
+.banner {
+    background-image: linear-gradient(290deg, #0d0701 0%, #21130500 100%), url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    text-align: center;
+    padding: 174px 307px 337px;
+}
+
+.banner-title {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.btn-primary {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FF5959;
+    padding: 16px 12px;
+
+
+}
+
+/* Donate Today */
+
+.donate-title {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.donate-description {
+    width: 691px;
+    height: 56px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 375px;
+    margin-bottom: 50px;
+    color: #707070;
+}
+
+.amount-container {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+.amount {
+    border-radius: 5px;
+    background: #FAFAFA;
+    padding: 45px 24px;
+}
+
+.amount2 {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+    padding: 45px 24px;
+}
+
+.other {
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 60px;
+
+}
+
+hr {
+    width: 765px;
+    margin-left: 338px;
+    margin-bottom: 30px;
+}
+
+.btn-primary2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FF5959;
+    padding: 16px 12px;
+    margin-left: 640px;
+
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.box {
+    width: 360px;
+    height: 352px;
+    padding-left: 24px;
+
+}
+
+.box img {
+    margin-top: 64px;
+
+}
+
+.title,
+.desc {
+    margin-top: 32px;
+
+}
+.title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.desc{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#box1 {
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+}
+
+#box2 {
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+}
+
+#box3 {
+    border-radius: 5px;
+    background: #FFF4D6;
+}
+
+.contribute1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22px;
+}
+.image{
+    width: 456px;
+    height: 477px;
+    margin-top: 111px;
+    margin-right: 310px;
+}
+
+.text{
+    margin-left: 156px;
+}
+.text h3{
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.text p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.text .btn-primary{
+    margin-top: 20px;
+}
